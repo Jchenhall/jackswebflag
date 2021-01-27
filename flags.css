@@ -1,0 +1,145 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Tahoma, Verdana, sans-serif;
+  }
+  
+  *::selection {
+    color: white;
+    background-color: #1182eb;
+  }
+  
+  body {
+    background-color: white;
+    max-width: 1400px;
+    margin: auto;
+  }
+  
+  header {
+    text-align: center;
+    height: 80px;
+    padding: 40px;
+    color: rgb(94, 92, 89);
+    position: sticky;
+    top: 0;
+  }
+
+.flag {
+    position: absolute;
+    top: 200px;
+    left: 26%;
+    bottom: 10px;
+    margin: 30px;
+    box-shadow: 5px 5px 5px 5px lightgrey; 
+}
+
+#germany {
+    padding: 15%;
+    width: 200px;
+    height:50px;
+    background: red;
+    position: relative;
+}
+
+#germany::before {
+    content: "";
+    width: 100%;
+    height: 33.33%;
+    background-color: black;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+#germany::after {
+    content: "";
+    width: 100%;
+    height: 33.33%;
+    background-color: #FFCC00;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+
+#germany:hover {
+    padding: 15%;
+    width: 200px;
+    height:50px;
+    background: white;
+    position: relative;
+}
+#germany:hover::before {
+    content: "";
+    width: 100%;
+    height: 33.33%;
+    background-color: rgba(235, 54, 54, 0.884);
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+#germany:hover::after {
+    content: "";
+    width: 100%;
+    height: 33.33%;
+    background-color: rgb(77, 143, 77);
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+
+#france {
+    padding: 15%;
+    width: 200px;
+    height:50px;
+    background: red;
+    position: relative;
+}
+
+#france::before {
+    content: "";
+    width: 66.66%;
+    height: 100%;
+    background-color: white;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+#france::after {
+    content: "";
+    width: 33.33%;
+    height: 100%;
+    background-color: blue;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+
+#france:hover {
+    padding: 15%;
+    width: 200px;
+    height:50px;
+    background: rgb(226, 135, 50);
+    position: relative;
+}
+
+#france:hover::before {
+    content: "";
+    width: 66.66%;
+    height: 100%;
+    background-color: white;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+#france:hover::after {
+    content: "";
+    width: 33.33%;
+    height: 100%;
+    background-color: rgb(77, 143, 77);
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
